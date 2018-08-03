@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family:Arial, "Helvetica Neue", Helvetica,sans-serif;
+  font-size:17px;
+  color:#FFFFFF;
+  line-height:1.6;
+}
+
+#showcase{
+  background-image:url('landing 180314_JIY3364_jon-izeta_5000px.jpg');
+background-size:cover;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items:center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1{
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+#showcase h2{
+  font-size: 60px;
+  line-height: 1.5;
+}
+
+#showcase p{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#showcase .button{
+  font-size: 14;
+  text-decoration: none;
+  color: #009900;
+  background-color: #FFFFFF;
+  border: #009900 1px solid;
+  padding: 5px 10px;
+  border-radius:5px;
+  margin-top:10px;
+}
+
+#social {
+  padding-bottom: 20px;
+}
+
+#social img {
+  width: 40px;
+  color: #FFFFFF;
+  margin-top:10px;
+}
